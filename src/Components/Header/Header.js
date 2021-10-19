@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
@@ -37,35 +37,9 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      {/* <Navbar bg="success" variant="dark">
-    <Container>
-    <Navbar.Brand >Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <NavLink className="navBtn" to ="/home" >Home</NavLink>
-      <NavLink className="navBtn" to="/services" >Services</NavLink>
-      <NavLink className="navBtn" to ="/about" >About Us</NavLink>
-      {
-          user.email ?
-          <button onClick={logOut}> Log Out </button>
-          :
-          <NavLink className="navBtn" to ="/login" >Login</NavLink>}
-    </Nav>
-    </Container>
-  </Navbar> */}
     </div>
   );
 };
 
 export default Header;
-{/* <Nav className="me-auto">
-  <NavLink className="navBtn" to="/home" >Home</NavLink>
-  <NavLink className="navBtn" to="/services" >Services</NavLink>
-  <NavLink className="navBtn" to="/about" >About Us</NavLink>
-  {
-    user.email ?
-      <button onClick={logOut}> Log Out </button>
-      :
-      <NavLink className="navBtn" to="/login" >Login</NavLink>}
-</Nav> */}
 
