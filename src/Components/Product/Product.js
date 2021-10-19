@@ -16,7 +16,7 @@ const Product = (props) => {
                     <Card.Title>{serviceName}</Card.Title>
                     <div>
                     
-                        <h6>$ {description}</h6>
+                        <h6> {description}</h6>
                     </div>
                   
                     <Link className="details-btn" to ="/details"> L details </Link>

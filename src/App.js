@@ -12,6 +12,7 @@ import Register from './Components/Register/Register';
 import AuthProvider from './Context/authProvider';
 import Details from './Components/Details/Details';
 import Footer from './Components/Footer/Footer';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route path="/about">
               <AboutUs></AboutUs>
+            </Route>
+            <Route path="/blog">
+              <Blog></Blog>
             </Route>
             <Route path="/login">
               <Login></Login>

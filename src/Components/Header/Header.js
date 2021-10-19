@@ -28,11 +28,13 @@ const Header = () => {
               <NavLink className="navBtn" to="/home" >Home</NavLink>
               <NavLink className="navBtn" to="/services" >Services</NavLink>
               <NavLink className="navBtn" to="/about" >About Us</NavLink>
+              <NavLink className="navBtn" to="/blog" >Blog</NavLink>
               {
                 user.email ?
                   <button onClick={logOut}> Log Out </button>
                   :
                   <NavLink className="navBtn" to="/login" >Login</NavLink>}
+                  <h4>Name : {user.displayName}</h4>
             </Nav>
           </Navbar.Collapse>
         </Container>

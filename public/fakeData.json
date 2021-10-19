@@ -36,30 +36,16 @@
     },
     {
         "id": 6,
-        "img": "https://dept.jnu.ac.bd/assets/slider/50.jpg",
-        "serviceName": "CSE",
-        "tutorName": "Sadequr Rahman",
+        "img": "https://static.toiimg.com/thumb/msid-82376357,width-1200,height-900,resizemode-4/.jpg",
+        "serviceName": "Air Ambulance Service",
+        "description": "In Modern Ambulance service, We will provice air ambulance service for long destination or International flight. Our air service are available in all the Country of Europ and America. ",
         "fee": 950
     },
     {
         "id": 7,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSLTMqEwNGlQQStY_AHaL3uWN_muzKZ93LD5YpjEihQRVLaN-6DGNEp1Z5NbntHQX6K8&usqp=CAU",
-        "serviceName": "General Knowledge",
-        "tutorName": "Md. Razib Hasan",
+        "img": "https://ambulanceusa.com/wp-content/uploads/2021/07/Ambulance-USA-Personal-Liason-For-your-team.jpg",
+        "serviceName": "Health Online Counceling",
+        "description": "We are arrange a counceling program for every month that is called Health Online Counceling. In this programme a specialist doctor will discuss how we can keep healthy our budy and mind.   ",
         "fee": 850
-    },
-    {
-        "id": 8,
-        "img": "https://image.shutterstock.com/image-photo/ict-information-communication-technology-concept-260nw-1262757361.jpg",
-        "serviceName": "Information and Communications Technology",
-        "tutorName": "Jhankar Mahbub",
-        "fee": 890
-    },
-    {
-        "id": 9,
-        "img": "https://obxartstudio.com/wp-content/uploads/2016/10/Art.jpg",
-        "serviceName": "Art",
-        "tutorName": "Joynul Abedin",
-        "fee": 870
     }
 ]
