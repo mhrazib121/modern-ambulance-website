@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "img": "https://www.careambulance.net/images/BLS3.jpg",
+        "serviceName": "BLS Ambulance Transportation Services",
+        "description": "Our Basic Life Support (BLS) ambulances are fully equipped and staffed by two highly trained Emergency Medical Technicians (EMT's). CARE provides ambulance service 7-days a week, 24-hours per day throughout Orange, Los Angeles, and Riverside Counties.",
+        "fee": 200
+    },
+    {
+        "id": 2,
+        "img": "https://www.careambulance.net/images/ALS3.jpg",
+        "serviceName": "ALS Transportation Services",
+        "description": "Care Ambulance has expanded our service capabilities by adding Advanced Life Support / Paramedic Services in the Los Angeles County area. These resources are utilized for ALS/Paramedic level interfacility transport services. Our vehicles are equipped with state-of-the-art technology, allowing us to transport the critical patient in a mobile hospital setting.",
+        "fee": 700
+    },
+    {
+        "id": 3,
+        "img": "https://www.careambulance.net/images/CCT%20web.jpg",
+        "serviceName": "CCT Transportation Services",
+        "description": "When a patient in critical condition needs to be transferred from one facility to another, that patient needs a higher level of transport service. This service is known as a Critical Care Transport or CCT level of service. All of our Critical Care Transport Nurses are full-time Care employees and are staffed on the ambulance to provide the fastest possible response times.",
+        "fee": 800
+    },
+    {
+        "id": 4,
+        "img": "https://www.careambulance.net/images/Special%20Evnet%203A.jpg",
+        "serviceName": "Community, Special Events, and Standbys",
+        "description": "Care Ambulance Service is a Community Oriented service provider. We have been actively participating in and giving back to the communities we serve since 1969.",
+        "fee": 520
+    },
+    {
+        "id": 5,
+        "img": "https://www.careambulance.net/images/Conceirge%203.jpg",
+        "serviceName": "Concierge Transportation Services",
+        "description": "When you need the safety and security of a non-emergency ambulance transport but do not meet the medical necessity standards that your insurance provider mandates, what are the alternatives?",
+        "fee": 950
+    },
+    {
+        "id": 6,
+        "img": "https://dept.jnu.ac.bd/assets/slider/50.jpg",
+        "serviceName": "CSE",
+        "tutorName": "Sadequr Rahman",
+        "fee": 950
+    },
+    {
+        "id": 7,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSLTMqEwNGlQQStY_AHaL3uWN_muzKZ93LD5YpjEihQRVLaN-6DGNEp1Z5NbntHQX6K8&usqp=CAU",
+        "serviceName": "General Knowledge",
+        "tutorName": "Md. Razib Hasan",
+        "fee": 850
+    },
+    {
+        "id": 8,
+        "img": "https://image.shutterstock.com/image-photo/ict-information-communication-technology-concept-260nw-1262757361.jpg",
+        "serviceName": "Information and Communications Technology",
+        "tutorName": "Jhankar Mahbub",
+        "fee": 890
+    },
+    {
+        "id": 9,
+        "img": "https://obxartstudio.com/wp-content/uploads/2016/10/Art.jpg",
+        "serviceName": "Art",
+        "tutorName": "Joynul Abedin",
+        "fee": 870
+    }
+]

@@ -1,0 +1,11 @@
+.navBtn{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width:688px){
+    Navbar{
+        width: 200px;
+    }
+}
