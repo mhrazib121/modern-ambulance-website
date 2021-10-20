@@ -10,13 +10,14 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import AuthProvider from './Context/authProvider';
-import Details from './Components/Details/Details';
 import Footer from './Components/Footer/Footer';
 import Blog from './Components/Blog/Blog';
+import Details from './Components/Details/Details/Details';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>
@@ -43,9 +44,12 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            <Route path="/details">
+            {/* <Route path="/details">
               <Details></Details>
-            </Route>
+            </Route> */}
+            <PrivateRoute path="/details/:serviceDetails">
+              <Details></Details>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
@@ -53,7 +57,7 @@ function App() {
           <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
-    </div>
+    </>
   );
 }
 

@@ -1,11 +1,25 @@
 
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory} from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const Login = () => {
     const { signInWithGoogle, signInUsingEmail } = useAuth();
+    const history = useHistory();
+    const location = useLocation();
+    const redirect = location.state?.from || '/home'
+    console.log('come from', location.state?.from);
+
+    const googleLogin = ()=>{
+        signInWithGoogle()
+        .then(result => {
+            // const user = result.user
+            // console.log(user);
+            // setUser(user);
+            history.push(redirect)
+        })
+    }
     return (
 
         <div className="d-flex ">
@@ -26,7 +40,7 @@ const Login = () => {
                     <br />
                     <Link to="/register"> Want to register </Link>
                 </div>
-                <button className="m-2 bg-primary rounded-2" onClick={signInWithGoogle}> google Login </button>
+                <button className="m-2 bg-primary rounded-2" onClick={googleLogin}> google Login </button>
             </div>
 
         </div>

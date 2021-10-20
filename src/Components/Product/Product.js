@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import './Product.css';
 
 const Product = (props) => {
-    const {serviceName, description, img} = props.service;
+    const {serviceName, description, img, id} = props.service;
     console.log(serviceName);
     return (
         <div>
-        <Col className="shadow-lg">
+        <Col className="shadow-lg ">
             <Card >
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
@@ -19,7 +19,7 @@ const Product = (props) => {
                         <h6> {description}</h6>
                     </div>
                   
-                    <Link className="details-btn" to ="/details"> L details </Link>
+                    <Link className="details-btn" to ={`/details/${description}`}> L details </Link>
                     {/* <button className="btn btn-success">Details</button> */}
                 </Card.Body>
             </Card>
