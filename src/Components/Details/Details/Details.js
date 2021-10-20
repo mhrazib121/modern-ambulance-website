@@ -2,12 +2,15 @@ import React from 'react';
 import { useParams } from 'react-router';
 
 const Details = () => {
-    const {serviceDetails} = useParams();
-    console.log(serviceDetails)
+    const { serviceId } = useParams();
     return (
-        <div>
-            <h2>This is booking: {} </h2>
-            <p> descrip : {serviceDetails}</p>
+        <div className="container">
+            <div>
+                <h1 className="text-center text-primary"> Service Details </h1>
+                <h3>  {serviceId}</h3>
+               
+
+            </div>
         </div>
     );
 };

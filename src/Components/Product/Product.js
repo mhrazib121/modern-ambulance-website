@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './Product.css';
 
 const Product = (props) => {
-    const {serviceName, description, img, id} = props.service;
+    const {serviceName, description, img, } = props.service;
     console.log(serviceName);
     return (
         <div>
@@ -19,7 +19,7 @@ const Product = (props) => {
                         <h6> {description}</h6>
                     </div>
                   
-                    <Link className="details-btn" to ={`/details/${description}`}> L details </Link>
+                    <Link className="details-btn" to ={`/details/${description}`}> Details </Link>
                     {/* <button className="btn btn-success">Details</button> */}
                 </Card.Body>
             </Card>

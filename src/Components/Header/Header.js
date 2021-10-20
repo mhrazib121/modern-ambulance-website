@@ -16,7 +16,7 @@ const Header = () => {
       <Navbar bg="success" collapseOnSelect expand="lg">
         <Container>
 
-          <div className="mx-5"> <img  src="" alt="" />
+          <div className="mx-5"> <h5 className="text-white"> Modern Ambulance</h5>
           </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -34,7 +34,7 @@ const Header = () => {
                   <button onClick={logOut}> Log Out </button>
                   :
                   <NavLink className="navBtn" to="/login" >Login</NavLink>}
-                  <h4>Name : {user.displayName}</h4>
+                  <p className="mt-2 mx-auto">Name : {user.displayName}</p>
             </Nav>
           </Navbar.Collapse>
         </Container>

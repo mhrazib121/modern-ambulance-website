@@ -17,7 +17,7 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>
@@ -44,10 +44,8 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            {/* <Route path="/details">
-              <Details></Details>
-            </Route> */}
-            <PrivateRoute path="/details/:serviceDetails">
+            
+            <PrivateRoute path="/details/:serviceId">
               <Details></Details>
             </PrivateRoute>
             <Route path="*">
@@ -57,7 +55,7 @@ function App() {
           <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
-    </>
+    </div>
   );
 }
 

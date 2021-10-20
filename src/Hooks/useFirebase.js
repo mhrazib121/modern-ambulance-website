@@ -41,6 +41,8 @@ const useFirebase = () => {
         })
     },[])
 
+    // create new user by using email and passeord 
+
     const createNewUser = (event) => {
         event.preventDefault();
         if(password.length < 6){
@@ -69,6 +71,11 @@ const useFirebase = () => {
     const handlePassword = (event) => {
         setPassword(event.target.value)
     }
+    const setUserName=()=>{
+        updateProfile(auth.currentUser, {displayName: name})
+        .then(result=>{})
+    }
+    // Singn in by using google
 
     const signInUsingEmail= () =>{
         signInWithEmailAndPassword (auth, email, password)
@@ -78,11 +85,8 @@ const useFirebase = () => {
             console.log(user)
         })
     }
-    const setUserName=()=>{
-        updateProfile(auth.currentUser, {displayName: name})
-        .then(result=>{})
-    }
     
+
     return {
         user,
         error,
